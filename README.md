@@ -1,6 +1,6 @@
 # Uzair Car Database
 
-A comprehensive database of car makes and models with over 2,200+ unique entries compiled by Uzair Hussain.
+A comprehensive car database with over 2,200+ unique makes and models compiled by Uzair Hussain. Perfect for automotive applications, car search functionality, and vehicle data management.
 
 ## 🚗 Features
 

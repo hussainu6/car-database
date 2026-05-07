@@ -1,6 +1,6 @@
 {
   "name": "uzair-car-database",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Comprehensive database of car makes and models with over 2,200+ unique entries",
   "main": "index.js",
   "type": "module",
