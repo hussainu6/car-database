@@ -1,0 +1,54 @@
+{
+  "name": "uzair-car-database",
+  "version": "1.0.0",
+  "description": "Comprehensive database of car makes and models with over 2,200+ unique entries",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node example.js"
+  },
+  "keywords": [
+    "cars",
+    "automotive",
+    "database",
+    "makes",
+    "models",
+    "vehicles",
+    "car-data",
+    "whitelist",
+    "comprehensive",
+    "toyota",
+    "honda",
+    "bmw",
+    "mercedes",
+    "audi",
+    "tesla",
+    "hyundai",
+    "kia",
+    "ford",
+    "chevrolet",
+    "uzair-hussain"
+  ],
+  "author": {
+    "name": "Uzair Hussain",
+    "email": "uzair.hussain@example.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hussainu6/car-database.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hussainu6/car-database/issues"
+  },
+  "homepage": "https://github.com/hussainu6/car-database#readme",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

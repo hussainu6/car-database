@@ -1,0 +1,40 @@
+# Git Setup and Push Commands
+# Run these commands in order from the package directory
+
+# 1. Initialize git repository
+git init
+
+# 2. Add all files
+git add .
+
+# 3. Make initial commit
+git commit -m "Initial commit: Uzair Car Database v1.0.0
+
+- Added comprehensive car database with 2,235+ unique cars
+- Includes 132 car makes with full model listings
+- Features: getMakes(), getModels(), getAllCars(), getStats(), searchCars(), getRandomCar()
+- Complete documentation and examples
+- MIT License
+- Ready for npm publish"
+
+# 4. Add remote repository
+git remote add origin https://github.com/hussainu6/car-database.git
+
+# 5. Push to GitHub (main branch)
+git branch -M main
+git push -u origin main
+
+# 6. Login to npm (run once)
+npm login
+
+# 7. Publish to npm
+npm publish
+
+# 8. Verify package on npm
+# Visit: https://www.npmjs.com/package/uzair-car-database
+
+# Alternative: If you want to test locally before publishing
+npm pack
+
+# This will create uzair-car-database-1.0.0.tgz file
+# You can test it with: npm install ./uzair-car-database-1.0.0.tgz
